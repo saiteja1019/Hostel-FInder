@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find A Hostel</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="filter.js"></script>
+</head>
+<body>
+    <header>
+        <h2>Find A Hostel</h2>
+        <input type="text" id="search" placeholder="Search for PG, Area, and City">
+        <select name="location" id="location" title="Location">
+            <option value="hyd">Hyderabad</option>
+            <option value="bng">Bangalore</option>
+            <option value="che">Chennai</option>
+            <option value="mumbai">Mumbai</option>
+            <option value="del">Delhi</option>
+        </select>
+       <a href="signin.html" id="Signin"> <button type="button">Sign in</button></a>
+    </header>
+    <div class="navbar">
+        <div class="dropdown">
+          <button class="dropbtn">Apply Filter
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <br>
+            <div class="header">
+              <h2>Filters</h2>
+            </div>
+            <br>
+            <div class="row">
+                <button type="button" class="filter-options" value="price"> Price: Low to High</button>
+                <button type="button" class="filter-options" value="sharing"> Sharing: Low to High</button>
+                <button type="button" class="filter-options" value="rating">  User Rating: High to Low</button>
+                <button type="button" class="filter-options" value="men">For Men</button>
+                <button type="button" class="filter-options" value="women"> For Women</button>
+                <button type="button" class="filter-options" value="coliving">  Co-Living</button>
+            </div>
+            <br>
+          </div>
+        </div>
+      </div>
+    <br><br>
+    <div class="hostel-info">
+        <div class="residency-info">
+            <div class="image-container">
+                <img src="1.jpg" alt="Image description" loading="lazy" >
+            </div>
+            <div class="description">
+                <p>Location : Kokapet</p>
+                <p>Price : ₹ 8,000/month</p>
+                <p>Rating : 4.5/5</p>
+                <p>Gender : Co-Living</p>
+                <p>Sharing : 3-4 people</p>
+                <p> Amenities : Wi-Fi, AC, TV, GYM, Swimming Pool,</p>
+                <p>Address : 123, Kokapet, Hyderabad</p>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <br>
+        <br>
+        <div class="residency-info">
+            <div class="image-container">
+                <img src="2.jpg" alt="Image description" loading="lazy">
+            </div>
+            <div class="description">
+                <p>Location : Gachibowli</p>
+                <p>Price : ₹ 10,000/month</p>
+                <p>Rating : 4.8/5</p>
+                <p>Gender : Boys</p>
+                <p>Sharing : 2-3 people</p>
+                <p> Amenities : Wi-Fi, AC, TV, GYM, Swimming Pool,</p>
+                <p>Address : 456, Gachibowli, Hyderabad</p>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <br>
+        <br>
+        <div class="residency-info">
+            <div class="image-container">
+                <img src="3.jpg" alt="Image description" loading="lazy">
+            </div>
+            <div class="description">
+                <p>Location : Hitech City</p>
+                <p>Price : ₹ 12,000/month</p>
+                <p>Rating : 4.9/5</p>
+                <p>Gender : Girls</p>
+                <p>Sharing : 2-3 people</p>
+                <p> Amenities : Wi-Fi, AC, TV, GYM, Swimming Pool,</p>
+                <p>Address : 789, Hitech City, Hyderabad</p>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <br>
+        <br>
+        <div class="residency-info">
+            <div class="image-container">
+                <img src="4.jpg" alt="Image description" loading="lazy" >
+            </div>
+            <div class="description">
+                <p>Location : Kukatpally</p>
+                <p>Price : ₹ 9,000/month</p>
+                <p>Rating : 4.6/5</p>
+                <p>Gender : Co-Living</p>
+                <p>Sharing : 3-4 people</p>
+                <p> Amenities : Wi-Fi, AC, TV, GYM, Swimming Pool,</p>
+                <p>Address : 101, Kukatpally, Hyderabad</p>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <br>
+        <br>
+        <div class="residency-info">
+            <div class="image-container">
+                <img src="5.jpg" alt="Image description" loading="lazy" >
+            </div>
+            <div class="description">
+                <p>Location : Miyapur</p>
+                <p>Price : ₹ 11,000/month</p>
+                <p>Rating : 4.7/5</p>
+                <p>Gender : Boys</p>
+                <p>Sharing : 2-3 people</p>
+                <p> Amenities : Wi-Fi, AC, TV, GYM, Swimming Pool,</p>
+                <p>Address : 202, Miyapur, Hyderabad</p>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <br>
+        <br>
+        <div class="residency-info">
+            <div class="image-container">
+                <img src="6.jpg" alt="Image description" loading="lazy" >
+            </div>
+            <div class="description">
+                <p>Location : Madhapur</p>
+                <p>Price : ₹ 13,000/month</p>
+                <p>Rating : 4.9/5</p>
+                <p>Gender : Girls</p>
+                <p>Sharing : 2-3 people</p>
+                <p> Amenities : Wi-Fi, AC, TV, GYM, Swimming Pool,</p>
+                <p>Address : 303, Madhapur, Hyderabad</p>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+        <br>
+        <br>
+        <div class="residency-info">
+            <div class="image-container">
+                <img src="7.jpg" alt="Image description" loading="lazy" >
+            </div>
+            <div class="description">
+                <p>Location : Banjara Hills</p>
+                <p>Price : ₹ 10,500/month</p>
+                <p>Rating : 4.8/5</p>
+                <p>Gender : Co-Living</p>
+                <p>Sharing : 3-4 people</p>
+                <p> Amenities : Wi-Fi, AC, TV, GYM, Swimming Pool,</p>
+                <p>Address : 404, Banjara Hills, Hyderabad</p>
+            </div>
+            <button class="book-now">Book Now</button>
+        </div>
+    </div>
+</body>
+</html>
