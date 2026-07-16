@@ -185,7 +185,6 @@ This project is licensed under the MIT License.
 
 **Sai Teja**
 
-GitHub: https://github.com/your-github-username
 
 ---
 
